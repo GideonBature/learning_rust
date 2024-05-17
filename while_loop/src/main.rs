@@ -6,4 +6,16 @@ fn main() {
         number -= 1;
     }
     println!("Starting...");
+
+    while_loop();
+}
+
+fn while_loop() {
+    let arr = [10, 20, 30, 40, 50];
+    let mut i = 0;
+
+    while i < 5 {
+        println!("arr[{}] = {}", i, arr[i]);
+        i += 1;
+    } 
 }
